@@ -1,6 +1,7 @@
 # draw-svg
 It is a Simple drawing app using SVG by helping of ES6.
-You can create awesome draw and download the image also. It will great quality but size will be small.
+You can create awesome draw and download the image also. It will great quality but size will be small and if zoom-in and zoom-out
+nothing picture quality changes.
 
 # Demo
 [This](https://santanubiswas948.github.io/draw-svg/) is a simple demo of draw.

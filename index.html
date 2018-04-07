@@ -1,0 +1,44 @@
+<html>
+	<head>
+		<style>
+			*{
+				border : 0px,
+				margin : 0px
+			}
+		</style>
+	</head>
+	<body>
+		<!-- Start of draw -->
+		<table align='center'>
+			<tr align='left'>
+				<td style='color:#ef5c13'><b>Chosse&nbsp;Color&nbsp: </b>
+						<select name='color_picker' id='color_picker'>
+							<option value='red' style='background-color:red'>red</option>
+							<option value='green' style='background-color:green'>green</option>
+							<option value='blue' style='background-color:blue'>blue</option>
+							<option value='yellow' style='background-color:yellow'>yellow</option>
+							<option value='black' style='background-color:black'>black</option>
+							<option value='#0761f2' style='background-color:#0761f2'>#0761f2</option>
+							<option value='#06f116' style='background-color:#06f116'>#06f116</option>
+							<option value='#efa213' style='background-color:#efa213'>#efa213</option>
+							<option value='#ef5c13' style='background-color:#ef5c13'>#ef5c13</option>
+							<option value='#c910ba' style='background-color:#c910ba'>#c910ba</option>
+						</select>
+						&nbsp;
+						<a  href='' style='color:red;' id="link">Save&nbsp;Image</a>&nbsp;
+						<button id='clear_image'>Clear&nbsp;Image</button>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<div id='draw_div' style='border: 1px solid #000;width:100%;height:100%'>
+						<svg id='svg' width='1322' height='616' >
+							
+						</svg>
+					</div>
+				</td>
+			</tr>
+		</table>
+		<script src="dist/app.bundle.js"></script>
+	</body>
+</html>
